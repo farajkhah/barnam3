@@ -1,0 +1,86 @@
+@font-face{
+    font-family: 'iransans';
+    src: url('iransans.ttf');
+}
+:root {
+    --dark-background: rgb(38,84,124);
+    --light-background: #ebf3f2;
+    --dark: #2b3546;
+    --text: #6a6f75;
+    --darkblue: #2781aa;
+    --blue: #28A5DC;
+    --lightgray: #CACFD6;
+    --orange: #FF8A47;
+    --hover: #FF8A47;
+    --purple: #AA0080;
+    --green: #00DB68;
+    --lightblue: #C8EBFE;
+    --lightergray: #EAF2F6;
+    --grayblue: #9CB0C4;
+    --gray: #848C98;
+    --red: #FF785A;
+}
+body{
+    color: rgb(245,246,231);
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: var(--dark-background);
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 97vh;
+    box-shadow: 5px 10px 8px #d8d8d8;
+    margin: 0.7vw;
+    border-radius: 0.7vw;
+}
+
+.sidebar img{
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.sidebar h1{
+    color: white;
+    font-family: 'iransans';
+    font-size: 1.3vw;
+    text-align: center;
+    margin-bottom: 0;
+}
+.sidebar h2{
+    color: white;
+    font-family: 'iransans';
+    font-size: 1vw;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.links {
+    margin-top: 3vw;
+}
+.links a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'iransans';
+    font-size: 1.1vw;
+    text-align: right;
+    direction: rtl;
+    padding: 0.5vw 2vw;
+}
+.links a i{
+    padding: 0 0.5vw;
+}
+.links a:hover{
+    background-color: var(--dark);
+    border-radius: 0.5vw;
+}
+.links a.red{
+    color: var(--red);
+}

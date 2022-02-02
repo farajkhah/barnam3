@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    -if(error != ''){
+        .error= error
+    -}
+    -if(error_msg != ''){
+        .error= error_msg
+    -}
+    -if(success_msg != ''){
+        .success= success_msg
+    -}
+    
+    form(action="/login" method="POST") 
+        label(for="username") نام کاربری:
+        input.text(type="text" name="username")
+        label(for="password") کلمه عبور:
+        input.text(type="password" name="password")
+        a.link(href="/register") هنوز ثبت نام نکرده اید؟
+        button(type="submit") ورود

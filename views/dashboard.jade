@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Dashboard
+        link(rel="stylesheet", href="dashboard.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    body 
+        .sidebar 
+            img(src="img-02.png", alt="avatar")
+            .links 
+                a(href="#") 
+                    i.fa.fa-user 
+                    | داشبورد
+                a(href="#") 
+                    i.fa.fa-bell
+                    | اعلان ها
+                a(href="#") 
+                    i.fa.fa-gear
+                    | تنظیمات
+                a.red(href="/logout") 
+                    i.fa.fa-power-off
+                    | خروج
+        .content
+

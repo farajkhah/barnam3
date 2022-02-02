@@ -1,0 +1,19 @@
+extends layout 
+
+block content
+    form(action="/register" method="POST") 
+        label(for="firstName") نام:
+        input.text(type="text" name="firstName")
+        label(for="lastName") نام خانوادگی:
+        input.text(type="text" name="lastName")
+        label(for="email") پست الکترونیکی:
+        input.text(type="text" name="email")
+        label(for="username") نام کاربری:
+        input.text(type="text" name="username")
+        label(for="password") کلمه عبور:
+        input.text(type="password" name="password")
+        label(for="password2") تایید کلمه عبور:
+        input.text(type="password" name="password2")
+        
+        a.link(href="/login") قبلا ثبت نام کرده‌اید؟
+        button(type="submit") ثبت نام

@@ -1,0 +1,152 @@
+body{
+  background-color: rgb(245,246,231);
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: rgb(161,227,180);
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #d8d8d8;
+  margin: 0.7vw;
+  margin-bottom: 1vw;
+  border-radius: 0.7vw;
+}
+nav a{
+  float: right;
+  display: block;
+  padding: 0.8vw 2vw;
+  font-family: 'iransans';
+  font-size: 1.4vw;
+  color: rgb(38,84,124);
+  text-decoration: none;
+}
+nav a:hover{
+  background-color: rgb(191,243,229);
+  border-radius: 0.5vw;
+}
+nav img{
+  float: right;
+  margin-right: 1vw;
+  width: auto;
+}
+footer{
+  background-color: rgb(178,211,121);
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #d8d8d8;
+  margin: 0.7vw;
+  border-radius: 0.7vw;
+}
+footer h3{
+  float: center;
+  display: block;
+  padding: 0.8vw 2vw;
+  font-family: 'iransans';
+  font-size: 1.4vw;
+  color: rgb(38,84,124);
+  text-decoration: none;
+  text-align: center;
+}
+footer p{
+  float: right;
+  display: block;
+  padding: 0.8vw 2vw;
+  font-family: 'iransans';
+  font-size: 1vw;
+  color: rgb(38,84,124);
+  text-decoration: none;
+  text-align: right;
+}
+h2{
+  color: rgb(239,71,111);
+  font-family: 'iransans';
+  font-size: 2vw;
+  text-align: center;
+}
+
+form{
+  display: block;
+  width: 75%;
+  margin: 3vw auto;
+  padding: 2vw;
+  background-color: white;
+  box-shadow: 0 0 0.5vw 0.1vw #d8d8d8;
+  border-radius: 1vw;
+  direction: rtl;
+  text-align: right;
+}
+form label{
+  display: block;
+  font-family: 'iransans';
+  font-size: 1.2vw;
+  color: rgb(38,84,124);
+}
+form input{
+  display: block;
+  font-family: 'iransans';
+  font-size: 1.2vw;
+  width: 100%;
+  border-color: rgba(38, 84, 124, 0.267);
+  border-radius: 0.4vw;
+}
+form a.link{
+  font-family: 'iransans';
+  font-size: 1.2vw;
+  display: block;
+  width: fit-content;
+  margin: 1vw 0;
+  text-decoration: none;
+  color: rgb(38,84,124);
+}
+form a.link:hover{
+  color: rgb(111, 226, 144);
+}
+form button{
+  background-color: rgb(161,227,180);
+  padding: 0.5vw 2vw;
+  color: rgb(38,84,124);
+  border-radius: 00.5vw;
+  border: none;
+  font-family: 'iransans';
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+form button:hover{
+  background-color: rgb(191,243,229);
+}
+
+.error{
+  background-color: coral;
+  width: 55%;
+  margin: 2vw auto;
+  border-radius: 1vw;
+  color: white;
+  padding: 1vw 3vw;
+  text-align: right;
+  direction: rtl;
+  font-family: 'iransans';
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+.success{
+  background-color: rgb(108, 223, 108);
+  width: 55%;
+  margin: 2vw auto;
+  border-radius: 1vw;
+  color: white;
+  padding: 1vw 3vw;
+  text-align: right;
+  direction: rtl;
+  font-family: 'iransans';
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+img{
+  width: 15vw;
+  margin: 0.5vw;
+}
+
+
